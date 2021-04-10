@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+              android:background="@color/colorPrimaryDark"
+    android:orientation="vertical" >
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/item_backselect2"-->
+        <!--android:clickable="true"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:padding="8dp" >-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal" >-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="表前铅封:"-->
+                <!--android:textColor="@color/colorPrimaryDark" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal" >-->
+            <!--<RadioGroup-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal" >-->
+                <!--<RadioButton-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="损坏"-->
+                    <!--android:textColor="@color/colorPrimaryDark"/>-->
+                <!--<RadioButton-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="完好"-->
+                    <!--android:textColor="@color/colorPrimaryDark"/>-->
+            <!--</RadioGroup>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_backselect2"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="表前铅封:"
+                style="@style/text_zhong"
+                android:textColor="@color/colorPrimaryDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal" >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="损坏"
+                    android:textColor="@color/colorPrimaryDark"
+                    style="@style/text_zhong" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="完好"
+                    android:textColor="@color/colorPrimaryDark"
+                    style="@style/text_zhong" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:background="@drawable/shape_line" />
+</LinearLayout>

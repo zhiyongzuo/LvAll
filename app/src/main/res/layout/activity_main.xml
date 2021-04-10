@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello World!"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.epro.lvall.AutoChangeLineLinearLayout5
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#984739"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#740081"
+            android:text="111111111111"/>
+        <TextView
+            android:background="#749593"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="222222222222222222222"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#749283"
+            android:text="3333333333333333333333333333"/>
+        <TextView
+            android:background="#148003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="44444444444444444444444444444"/>
+        <TextView
+            android:background="#742083"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5555555555555555"/>
+        <TextView
+            android:background="#718483"
+            android:id="@+id/tv_shut_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:text="关机"/>
+    </com.epro.lvall.AutoChangeLineLinearLayout5>
+
+    <com.epro.lvall.CustomMoveView
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="CustomMoveView!"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
