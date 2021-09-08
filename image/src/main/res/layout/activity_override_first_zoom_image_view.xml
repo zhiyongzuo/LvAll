@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.epro.image.OverrideFirstZoomImageView
+        android:id="@+id/override_first_zoom_iamge_view"
+        android:background="@android:color/black"
+        android:src="@drawable/w1080h4320"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!--    <com.epro.image.ZoomImageView-->
+<!--        android:id="@+id/override_first_zoom_iamge_view"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:src="@drawable/w1080h4320"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>

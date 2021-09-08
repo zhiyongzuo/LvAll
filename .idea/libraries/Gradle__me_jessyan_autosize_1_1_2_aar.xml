@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: me.jessyan:autosize:1.1.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/89b43956c44873d02ad614a3f1384692/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/89b43956c44873d02ad614a3f1384692/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/89b43956c44873d02ad614a3f1384692/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/7406a27677be0a7fd59c122e3aaea14e/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/7406a27677be0a7fd59c122e3aaea14e/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/7406a27677be0a7fd59c122e3aaea14e/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c8c3c48bbdf9657ec1c414e24e31a79f/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c8c3c48bbdf9657ec1c414e24e31a79f/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c8c3c48bbdf9657ec1c414e24e31a79f/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cb06d96647048e6ffbd3bac69b9de261/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cb06d96647048e6ffbd3bac69b9de261/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cb06d96647048e6ffbd3bac69b9de261/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/me.jessyan/autosize/1.1.2/48bdaac7bd16d92fa55bd5bdb2b30d1125add6d5/autosize-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GlideFilePathTestActivity">
+    <TextView
+        android:id="@+id/tv_test"
+        android:background="@color/colorAccent"
+        android:foreground="?android:selectableItemBackground"
+        android:text="klsjflksdjflkjkdsg"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+
+    <com.epro.image.circleProgressBar.CircleProgressbar
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        app:inner_circle_color="#C8DFFF"
+        app:outer_circle_color="@color/colorPrimaryDark"
+        app:inner_circle_width="10dp"
+        app:outer_circle_width="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <com.epro.image.circleProgressBar.EggView
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:layout_width="100dp"
+        android:layout_height="200dp"/>
+</LinearLayout>

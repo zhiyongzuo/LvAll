@@ -1,0 +1,4 @@
+include ':behavior'
+include ':filepicker'
+include ':listview'
+include ':app', ':verifycode', ':roomdb', ':textviewsize', ':image', ':rx', ':recyclerview', ':web_socket', ':webview', ':fragment', ':dispatch', ':kotlin', ':measurelayoutdraw'

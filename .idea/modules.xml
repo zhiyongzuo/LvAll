@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LvAll.iml" filepath="$PROJECT_DIR$/.idea/modules/LvAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LvAll.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LvAll.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/behavior/LvAll.behavior.iml" filepath="$PROJECT_DIR$/.idea/modules/behavior/LvAll.behavior.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dispatch/LvAll.dispatch.iml" filepath="$PROJECT_DIR$/.idea/modules/dispatch/LvAll.dispatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filepicker/LvAll.filepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/filepicker/LvAll.filepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fragment/LvAll.fragment.iml" filepath="$PROJECT_DIR$/.idea/modules/fragment/LvAll.fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image/LvAll.image.iml" filepath="$PROJECT_DIR$/.idea/modules/image/LvAll.image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin/LvAll.kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin/LvAll.kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listview/LvAll.listview.iml" filepath="$PROJECT_DIR$/.idea/modules/listview/LvAll.listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/measurelayoutdraw/LvAll.measurelayoutdraw.iml" filepath="$PROJECT_DIR$/.idea/modules/measurelayoutdraw/LvAll.measurelayoutdraw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recyclerview/LvAll.recyclerview.iml" filepath="$PROJECT_DIR$/.idea/modules/recyclerview/LvAll.recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/roomdb/LvAll.roomdb.iml" filepath="$PROJECT_DIR$/.idea/modules/roomdb/LvAll.roomdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rx/LvAll.rx.iml" filepath="$PROJECT_DIR$/.idea/modules/rx/LvAll.rx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/textviewsize/LvAll.textviewsize.iml" filepath="$PROJECT_DIR$/.idea/modules/textviewsize/LvAll.textviewsize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/verifycode/LvAll.verifycode.iml" filepath="$PROJECT_DIR$/.idea/modules/verifycode/LvAll.verifycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web_socket/LvAll.web_socket.iml" filepath="$PROJECT_DIR$/.idea/modules/web_socket/LvAll.web_socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webview/LvAll.webview.iml" filepath="$PROJECT_DIR$/.idea/modules/webview/LvAll.webview.iml" />
+    </modules>
+  </component>
+</project>

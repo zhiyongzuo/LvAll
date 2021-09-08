@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blankj:utilcode:1.25.7@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/bedde8e9a5da63a68c3ca0b40749e403/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/d6e1db004cd8ece85db8b0d0322d1e2f/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/4990bbbb951bb3f7df0a88c8da6d6d11/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/10186e1dfe902541d73d9248f3078357/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/ccb3c0ce280f5798300cdea72be53546/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/52783906ee86f595768b522bde6e05cb/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/bedde8e9a5da63a68c3ca0b40749e403/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/bedde8e9a5da63a68c3ca0b40749e403/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/bedde8e9a5da63a68c3ca0b40749e403/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/d6e1db004cd8ece85db8b0d0322d1e2f/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/d6e1db004cd8ece85db8b0d0322d1e2f/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/d6e1db004cd8ece85db8b0d0322d1e2f/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/4990bbbb951bb3f7df0a88c8da6d6d11/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/4990bbbb951bb3f7df0a88c8da6d6d11/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/4990bbbb951bb3f7df0a88c8da6d6d11/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/10186e1dfe902541d73d9248f3078357/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/10186e1dfe902541d73d9248f3078357/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/10186e1dfe902541d73d9248f3078357/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/ccb3c0ce280f5798300cdea72be53546/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/ccb3c0ce280f5798300cdea72be53546/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/ccb3c0ce280f5798300cdea72be53546/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/52783906ee86f595768b522bde6e05cb/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/52783906ee86f595768b522bde6e05cb/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/52783906ee86f595768b522bde6e05cb/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.blankj/utilcode/1.25.7/7ea02e2cd57c0f27d3793ced5a98c0437e4ffe61/utilcode-1.25.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

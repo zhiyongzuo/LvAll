@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blankj:utilcodex:1.25.9@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/a66a98ba8b028bd5e7220584c0ef2ede/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/217fd3f064beee155b0fac27ae9834ea/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/acf05a43751d50b6f945da16a0672546/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/a66a98ba8b028bd5e7220584c0ef2ede/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/a66a98ba8b028bd5e7220584c0ef2ede/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/a66a98ba8b028bd5e7220584c0ef2ede/res" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/217fd3f064beee155b0fac27ae9834ea/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/217fd3f064beee155b0fac27ae9834ea/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/217fd3f064beee155b0fac27ae9834ea/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/acf05a43751d50b6f945da16a0672546/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/acf05a43751d50b6f945da16a0672546/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/acf05a43751d50b6f945da16a0672546/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.25.9/250bc92c2a582b98bfadf2395b187c1a0d48b444/utilcodex-1.25.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

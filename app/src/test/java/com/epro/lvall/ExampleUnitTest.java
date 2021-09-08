@@ -1,12 +1,17 @@
 package com.epro.lvall;
 
 import android.graphics.Matrix;
+import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSONObject;
+import com.blankj.utilcode.constant.TimeConstants;
+import com.blankj.utilcode.util.AppUtils;
 import com.blankj.utilcode.util.ConvertUtils;
 import com.blankj.utilcode.util.EncodeUtils;
 import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.GsonUtils;
+import com.blankj.utilcode.util.RegexUtils;
+import com.blankj.utilcode.util.TimeUtils;
 import com.google.gson.Gson;
 
 import org.junit.Test;
@@ -26,6 +31,8 @@ import java.util.Map;
 import java.util.TimeZone;
 import java.util.TreeMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.assertEquals;
 
@@ -35,6 +42,111 @@ import static org.junit.Assert.assertEquals;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
+
+    @Test
+    public void testDivide() {
+        System.out.println(0%2);//0
+        System.out.println(1%2);//1
+        System.out.println(2%2);//0
+        System.out.println(3%2);//1
+        System.out.println(4%2);//0
+    }
+
+
+    @Test
+    public void hidePhoneNumber() {
+        String phone = "jddlsfj18124878057";//jddlsfj181****8057
+        String phone_s = phone.replaceAll("(\\d{3})\\d{4}(\\d{4})", "$1****$2");
+        System.out.println(phone_s);
+
+        System.out.println(RegexUtils.isZh("4"));//false
+        System.out.println(RegexUtils.isZh("4.0"));//false
+        System.out.println(RegexUtils.isZh("的肌肤4"));//false
+        System.out.println(RegexUtils.isZh("的肌肤4.00"));//false
+        System.out.println(RegexUtils.isZh("的肌肤"));//true
+        System.out.println(RegexUtils.isZh("对应银币余额不足！"));//false
+    }
+
+    @Test
+    public void testAddOneDay() {
+        String s = TimeUtils.getString("2021-12-31 10:36:35", 1, TimeConstants.DAY);
+        System.out.println(s);
+    }
+
+    public static boolean isS1GreaterThanS2(String s1, String s2) {
+        if(TextUtils.isEmpty(s1) || TextUtils.isEmpty(s2)) {
+            return false;
+        }
+        if(new BigDecimal(s1).subtract(new BigDecimal(s2)).doubleValue()>0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Test
+    public void testIsS1GreaterThanS2() {
+        System.out.println(isS1GreaterThanS2("0.0", "0"));//false
+        System.out.println(isS1GreaterThanS2("0", "0.0"));//false
+        System.out.println(isS1GreaterThanS2("0", "0.2"));//false
+        System.out.println(isS1GreaterThanS2("0", "-0.2"));//true
+        System.out.println(isS1GreaterThanS2("0.1", "0.2"));//false
+        System.out.println(isS1GreaterThanS2("0.2", "0.1"));//true
+        System.out.println(isS1GreaterThanS2("2", "1"));//true
+        System.out.println(isS1GreaterThanS2("1", "2"));//false
+        System.out.println(isS1GreaterThanS2("11", "2"));//true
+
+        String s = "我的手机号是18837112195，曾经用过18888888888，还用过18812345678";
+        String regex = "1[35789]\\d{9}";
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(s);
+
+        while (m.find()) { //一定需要先查找再调用group获取电话号码
+            System.out.println(m.group());
+        }
+    }
+
+
+
+    public static String millis2FitTimeSpan(long millis, int precision) {
+        if (millis <= 0 || precision <= 0) return "00";
+        StringBuilder sb = new StringBuilder();
+        String[] units = {":", ":", ""};
+        int[] unitLen = {3600000, 60000, 1000};
+        precision = Math.min(precision, 3);
+        for (int i = 0; i < precision; i++) {
+            if (millis >= unitLen[i]) {
+                long mode = millis / unitLen[i];
+                millis -= mode * unitLen[i];
+                if (mode<10) {
+                    sb.append("0" + mode).append(units[i]);
+                } else {
+                    sb.append(mode).append(units[i]);
+                }
+            } else {
+                sb.append("00").append(units[i]);
+            }
+        }
+        return sb.toString();
+    }
+
+    @Test
+    public void testTimeConvert() {
+        long s = com.blankj.utilcode.util.TimeUtils.getTimeSpanByNow(com.blankj.utilcode.util.TimeUtils.string2Date("2021-08-13 09:10:01"), TimeConstants.MSEC);
+        System.out.println(s);
+
+//        String dateString1 = com.blankj.utilcode.util.TimeUtils.millis2String(s, "yyyy-MM-dd HH:mm:ss");
+        String dateString1 = com.blankj.utilcode.util. ConvertUtils.millis2FitTimeSpan(s, 5);
+        System.out.println(dateString1);
+
+        String dateString = millis2FitTimeSpan(s, 3);
+        System.out.println(dateString);
+    }
+
+    @Test
+    public void testLength() {
+        System.out.println("10.00".length());
+    }
 
     /**
      * drawable 转 base64
@@ -175,6 +287,7 @@ public class ExampleUnitTest {
         System.out.println(object2);                //java.lang.Object@3581c5f3
         System.out.println(object2.hashCode());     //897697267
         System.out.println(object2.toString());     //java.lang.Object@3581c5f3
+
     }
 
     @Test
@@ -460,12 +573,17 @@ public class ExampleUnitTest {
 
     }
 
+    /**
+     * 以前正常，现在报错了，不打印 2021.07.20
+     */
     @Test
     public void testMD5() {
         //E8933D85A8BAD2B964E64B108E715C68
 //        System.out.println(FileUtils.getFileMD5ToString("C:\\Users\\zuo81\\Desktop\\compare\\ranqiyidonggongdanxitong.apk"));
         //E8933D85A8BAD2B964E64B108E715C68
-        System.out.println(FileUtils.getFileMD5ToString("C:\\Users\\zuo81\\Desktop\\compare\\gas.joystar.com_2.1.6_216.apk"));
+//        System.out.println(FileUtils.getFileMD5ToString("C:\\Users\\zuo81\\Desktop\\compare\\gas.joystar.com_2.1.6_216.apk"));
+        System.out.println(FileUtils.getFileMD5ToString("E:\\d\\wcqsj.keystore.jks"));
+        System.out.println(AppUtils.getAppSignatureMD5());
     }
 
     @Test
@@ -566,5 +684,20 @@ public class ExampleUnitTest {
         }
         System.out.println("---end---");
     }
+
+
+    @Test
+    public void testTrim() {
+        String s = "    669";
+        System.out.println(s.trim());
+    }
+
+
+    @Test
+    public void testCompareTo() {
+        System.out.println("3".compareTo("4"));
+        System.out.println("3".compareTo("14"));
+    }
+
 }
 
