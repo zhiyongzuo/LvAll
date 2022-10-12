@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LvAll.iml" filepath="$PROJECT_DIR$/.idea/modules/LvAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aidlserver/LvAll.aidlserver.iml" filepath="$PROJECT_DIR$/.idea/modules/aidlserver/LvAll.aidlserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LvAll.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LvAll.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/behavior/LvAll.behavior.iml" filepath="$PROJECT_DIR$/.idea/modules/behavior/LvAll.behavior.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dispatch/LvAll.dispatch.iml" filepath="$PROJECT_DIR$/.idea/modules/dispatch/LvAll.dispatch.iml" />

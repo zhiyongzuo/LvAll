@@ -1,13 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar">
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/e95d74ac5ab60e7cdc182a71e71b578b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f21de3a05f78dd85e91f64df7def57ba/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f21de3a05f78dd85e91f64df7def57ba/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f21de3a05f78dd85e91f64df7def57ba/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android/.gradle/caches/modules-2/files-2.1/androidx.slidingpanelayout/slidingpanelayout/1.0.0/f3f2e4fded24d5969a86e1974ad7e96975d970a0/slidingpanelayout-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/androidx.slidingpanelayout/slidingpanelayout/1.0.0/f3f2e4fded24d5969a86e1974ad7e96975d970a0/slidingpanelayout-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.slidingpanelayout/slidingpanelayout/1.0.0/f3f2e4fded24d5969a86e1974ad7e96975d970a0/slidingpanelayout-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

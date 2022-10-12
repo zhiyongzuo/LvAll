@@ -1,13 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: com.trello.rxlifecycle3:rxlifecycle-components:3.1.0@aar">
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/fc92e5822c636cca4fa883b116fbebb0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0680c958ba7b9d5fa6b506eb3d4809a/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0680c958ba7b9d5fa6b506eb3d4809a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a0680c958ba7b9d5fa6b506eb3d4809a/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle3/rxlifecycle-components/3.1.0/17de6dd629826e22ec93626c41cd5ea6c7874bb6/rxlifecycle-components-3.1.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle3/rxlifecycle-components/3.1.0/17de6dd629826e22ec93626c41cd5ea6c7874bb6/rxlifecycle-components-3.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.trello.rxlifecycle3/rxlifecycle-components/3.1.0/17de6dd629826e22ec93626c41cd5ea6c7874bb6/rxlifecycle-components-3.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

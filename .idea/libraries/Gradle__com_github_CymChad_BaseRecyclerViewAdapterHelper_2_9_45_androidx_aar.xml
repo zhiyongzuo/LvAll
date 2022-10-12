@@ -1,16 +1,21 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45-androidx@aar">
     <ANNOTATIONS>
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b10cd5e0161a7674ef09d72bfb82e2/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/c989909d81f6b0396325a571faba4c63/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b10cd5e0161a7674ef09d72bfb82e2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b10cd5e0161a7674ef09d72bfb82e2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b10cd5e0161a7674ef09d72bfb82e2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.45-androidx/92eb17dea87ccd1c8d8825cf4faef2c22fee1139/BaseRecyclerViewAdapterHelper-2.9.45-androidx-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.45-androidx/92eb17dea87ccd1c8d8825cf4faef2c22fee1139/BaseRecyclerViewAdapterHelper-2.9.45-androidx-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.45-androidx/92eb17dea87ccd1c8d8825cf4faef2c22fee1139/BaseRecyclerViewAdapterHelper-2.9.45-androidx-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

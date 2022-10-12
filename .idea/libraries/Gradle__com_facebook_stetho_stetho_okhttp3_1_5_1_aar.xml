@@ -1,13 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.stetho:stetho-okhttp3:1.5.1@aar">
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/cadcf00fabe412bef942a377fb94e8d0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7c2455efcea95a6fc5a3581c5d7f70/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7c2455efcea95a6fc5a3581c5d7f70/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c7c2455efcea95a6fc5a3581c5d7f70/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.5.1/9532ccdbe9c34bdbce27515b77e6d2cbb54b07c9/stetho-okhttp3-1.5.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.5.1/9532ccdbe9c34bdbce27515b77e6d2cbb54b07c9/stetho-okhttp3-1.5.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.5.1/9532ccdbe9c34bdbce27515b77e6d2cbb54b07c9/stetho-okhttp3-1.5.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

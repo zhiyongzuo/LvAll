@@ -7,6 +7,7 @@
       <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/fe627855a248e9aa76778cd7f24b1467/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/eb916a607aa4fc56dd316551d68229ad/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/5ad0b77af2092847c8e7ee73416198c1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6497f0da993eb4f1095d118c1ac5cda4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/191f2aff81479e922bf700e031f194c3/AndroidManifest.xml" />
@@ -27,10 +28,14 @@
       <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/5ad0b77af2092847c8e7ee73416198c1/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/5ad0b77af2092847c8e7ee73416198c1/res" />
       <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/5ad0b77af2092847c8e7ee73416198c1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6497f0da993eb4f1095d118c1ac5cda4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6497f0da993eb4f1095d118c1ac5cda4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6497f0da993eb4f1095d118c1ac5cda4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.5.1/4c46120db58b779ccf4666728ce22791702d1785/stetho-1.5.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.5.1/4c46120db58b779ccf4666728ce22791702d1785/stetho-1.5.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -1,16 +1,21 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.recyclerview:recyclerview:1.1.0-beta05@aar">
     <ANNOTATIONS>
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bd73e4ae2fc74d2c61dbea4e4448df/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/be89c7dec90a9c6584343a133a7c57f6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bd73e4ae2fc74d2c61dbea4e4448df/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bd73e4ae2fc74d2c61dbea4e4448df/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51bd73e4ae2fc74d2c61dbea4e4448df/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://E:/android/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta05/accfa6fb93c4c1d6183035d3d0074d9a3e4755f3/recyclerview-1.1.0-beta05-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta05/accfa6fb93c4c1d6183035d3d0074d9a3e4755f3/recyclerview-1.1.0-beta05-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta05/accfa6fb93c4c1d6183035d3d0074d9a3e4755f3/recyclerview-1.1.0-beta05-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

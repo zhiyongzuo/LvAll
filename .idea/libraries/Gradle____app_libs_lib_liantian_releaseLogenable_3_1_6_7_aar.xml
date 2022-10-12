@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: ./app/libs/lib-liantian-releaseLogenable-3.1.6.7.aar">
     <CLASSES>
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/AndroidManifest.xml" />
-      <root url="jar://E:/android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/jars/classes.jar!/" />
-      <root url="file://E:/android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/res" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../android/.gradle/caches/transforms-2/files-2.1/b1e9df445d03e713b0c54f2f4a7e3b7c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3fa36bee0caea577399101ebd48886e4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3fa36bee0caea577399101ebd48886e4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3fa36bee0caea577399101ebd48886e4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
