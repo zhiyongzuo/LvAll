@@ -1,9 +1,9 @@
-// IMyAidlInterface.aidl
+// IRemoteService.aidl
 package com.epro.verifycode;
 
 // Declare any non-default types here with import statements
 
-interface IMyAidlInterface {
+interface IRemoteService {
     /**
      * Demonstrates some basic types that you can use as parameters
      * and return values in AIDL.
@@ -11,5 +11,11 @@ interface IMyAidlInterface {
     void basicTypes(int anInt, long aLong, boolean aBoolean, float aFloat,
             double aDouble, String aString);
 
-            int addInMyAIDLInterface(int aInt, int bInt);
+            int addInRemoteInterface(int aInt, int bInt);
+
+            void join(IBinder iBinder, String name);
+            void leave(IBinder iBinder);
+
+            void updateHeartBeat();
+            void setHeartBeatCheckEnable(boolean enable);
 }

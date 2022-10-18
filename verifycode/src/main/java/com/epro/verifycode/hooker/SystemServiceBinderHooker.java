@@ -1,8 +1,12 @@
-package com.epro.lvall.hooker;
+package com.epro.verifycode.hooker;
 
 import android.os.IBinder;
 import android.os.IInterface;
 import android.text.TextUtils;
+
+import androidx.core.content.FileProvider;
+
+import com.blankj.utilcode.util.Utils;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -32,11 +36,8 @@ public class SystemServiceBinderHooker {
         try {
             // 1. 先获取 origin 的 IBinder 对象
             Class<?> serviceManagerClass = Class.forName("android.os.ServiceManager");
-
             Method getServiceMethod = serviceManagerClass.getDeclaredMethod("getService",String.class);
-
             getServiceMethod.setAccessible(true);
-
             final IBinder serviceBinder = (IBinder) getServiceMethod.invoke(null,mServiceName);
 
             // 2. hook 住 serviceBinder 创建代理对象
