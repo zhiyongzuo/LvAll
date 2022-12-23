@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
+import com.blankj.utilcode.util.DeviceUtils;
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.PermissionUtils;
 import com.blankj.utilcode.util.SPUtils;
@@ -44,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //b4:0f:b3:56:53:43
+        System.out.println(DeviceUtils.getMacAddress());
+        //184dc51b0a4983ba5b9bac4cb1ca48f54
+        System.out.println(DeviceUtils.getUniqueDeviceId());
+
 
 //        startActivity(new Intent(Utils.getApp(), DispatchActivity.class));
 //        startActivity(new Intent(Utils.getApp(), CutomDispatchViewActivity.class));

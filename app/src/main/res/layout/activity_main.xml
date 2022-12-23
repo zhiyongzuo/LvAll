@@ -24,7 +24,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <com.epro.lvall.AutoChangeLineLinearLayout5
+    <com.epro.lvall.view.AutoChangeLineLinearLayout20221020
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:foreground="?selectableItemBackground"
             android:text="关机"/>
-    </com.epro.lvall.AutoChangeLineLinearLayout5>
+    </com.epro.lvall.view.AutoChangeLineLinearLayout20221020>
 
     <com.epro.lvall.CustomMoveView
         android:visibility="gone"

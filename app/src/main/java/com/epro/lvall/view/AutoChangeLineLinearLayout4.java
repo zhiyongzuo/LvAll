@@ -1,4 +1,4 @@
-package com.epro.lvall;
+package com.epro.lvall.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

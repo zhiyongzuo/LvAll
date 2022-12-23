@@ -1,7 +1,11 @@
 package com.epro.lvall;
 
 import android.graphics.Matrix;
+import android.os.Handler;
+import android.os.Message;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
 
 import com.alibaba.fastjson.JSONObject;
 import com.blankj.utilcode.constant.TimeConstants;
@@ -11,7 +15,9 @@ import com.blankj.utilcode.util.EncodeUtils;
 import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.GsonUtils;
 import com.blankj.utilcode.util.RegexUtils;
+import com.blankj.utilcode.util.StringUtils;
 import com.blankj.utilcode.util.TimeUtils;
+import com.epro.lvall.util.MyHandlerThread;
 import com.google.gson.Gson;
 
 import org.junit.Test;
@@ -34,6 +40,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static com.blankj.utilcode.util.ObjectUtils.isNotEmpty;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -699,5 +706,58 @@ public class ExampleUnitTest {
         System.out.println("3".compareTo("14"));
     }
 
+
+    @Test
+    public void testMyHandlerThread() {
+        //wait
+        //notifyAll
+        //wait
+//        MyHandlerThread myHandlerThread = new MyHandlerThread("testMyHandlerThread");
+//        myHandlerThread.start();
+//        Handler handler = new Handler(myHandlerThread.getLooper()) {
+//            @Override
+//            public void handleMessage(@NonNull Message msg) {
+//                super.handleMessage(msg);
+//            }
+//        };
+
+        //!isAlive()
+        MyHandlerThread myHandlerThread = new MyHandlerThread("testMyHandlerThread");
+        Handler handler = new Handler(myHandlerThread.getLooper()) {
+            @Override
+            public void handleMessage(@NonNull Message msg) {
+                super.handleMessage(msg);
+            }
+        };
+        myHandlerThread.start();
+    }
+
+
+
+    /**
+     * 生成一个新的重新设置大小的数组<br>
+     * 调整大小后拷贝原数组到新数组下。扩大则占位前N个位置，其它位置补充0，缩小则截断
+     *
+     * @param bytes 原数组
+     * @param newSize 新的数组大小
+     * @return 调整后的新数组
+     * @since 4.6.7
+     */
+    public static byte[] resize(byte[] bytes, int newSize) {
+        if(newSize < 0){
+            return bytes;
+        }
+        final byte[] newArray = new byte[newSize];
+        if (newSize > 0 && isNotEmpty(bytes)) {
+            System.arraycopy(bytes, 0, newArray, 0, Math.min(bytes.length, newSize));
+        }
+        return newArray;
+    }
+
+    @Test
+    public void testResize() {
+        byte[] bytes = new byte[]{3, 4, 5};
+        System.out.println(GsonUtils.toJson(resize(bytes, 9)));
+    }
 }
 
